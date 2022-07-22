@@ -109,7 +109,7 @@ class DashboardView extends GetView<DashboardController> {
             topRight: Radius.circular(kDefaultCircular),
             topLeft: Radius.circular(kDefaultCircular),
           ),
-          color: kBgAccentColor,
+          color: Colors.white,
         ),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(
@@ -192,9 +192,9 @@ class DashboardView extends GetView<DashboardController> {
 
   displayDeleteDialog(String docId) {
     Get.defaultDialog(
-        title: "Delete Menu",
+        title: "Delete Member",
         titleStyle: TextStyle(fontSize: 18),
-        middleText: "Apakah kamu yakin hapus data menu?",
+        middleText: "Apakah kamu yakin hapus data Member?",
         textCancel: "Cancel",
         textConfirm: "Confirm",
         confirmTextColor: Colors.black,
