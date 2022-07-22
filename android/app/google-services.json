@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156569762365",
+    "project_id": "member-futsal",
+    "storage_bucket": "member-futsal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156569762365:android:f8ef2c13258b9b327f8854",
+        "android_client_info": {
+          "package_name": "com.kodenatan.memberfutsal.member_futsal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156569762365-angc8116rvl5tp44n2p0rojg3pqb9aak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyN778El7CZ3keiP2qvcwZjF_Iq55Tak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156569762365-angc8116rvl5tp44n2p0rojg3pqb9aak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
