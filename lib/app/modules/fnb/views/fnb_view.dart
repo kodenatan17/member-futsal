@@ -10,6 +10,7 @@ class FnbView extends GetView<FnbController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Container(
         padding: const EdgeInsets.all(kDefaultPadding),
         width: Get.width,
